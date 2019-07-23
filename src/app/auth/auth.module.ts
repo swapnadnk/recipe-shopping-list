@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 
 const routes: Routes =[
-    { path: 'auth', component: AuthComponent}
+    { path: '', component: AuthComponent}
 ]
 
 @NgModule({
